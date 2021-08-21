@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+
+ .container {
+  margin: auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+background-color: #BA8C63;
+}
+.square{ 
+     background: #BA8C63;
+     border: 4px rgb(112, 112, 112) solid;
+ }
+ @media (min-width:320px)  { .container{ height: 220px; width: 220px; } /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:481px)  { .container{ height: 320px; width: 320px; } }
+@media (min-width:641px)  {.container{ height: 600px; width: 600px; } }
+@media (min-width:961px)  { .container{ height: 680px; width: 680px; } }
+@media (min-width:1025px) { .container{ height: 750px; width: 750px; } }
